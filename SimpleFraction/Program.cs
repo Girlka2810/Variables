@@ -1,5 +1,5 @@
 ﻿using System;
-using Solve_equation;
+using Variables_Math;
 namespace SimpleFraction
 {
     class Program

@@ -3,21 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solve equation", "Solve equation\Solve equation.csproj", "{DA96EFAB-7570-4365-80B1-821F87A5AE1B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFraction", "SimpleFraction\SimpleFraction.csproj", "{496AA766-EC81-4D1F-81CD-1D8FDC757591}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Division A to B", "Division A to B\Division A to B.csproj", "{CA0C36BD-0428-4973-94D4-3C9B9FE84982}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDivision", "SinpleDivision\SimpleDivision.csproj", "{B4ED111D-C916-4893-97F8-5434D7C24316}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple equation", "Simple equation\Simple equation.csproj", "{722DC1BD-E7CC-4CA9-ADF3-DCC4B77BAFD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple equation", "Simple equation\Simple equation.csproj", "{722DC1BD-E7CC-4CA9-ADF3-DCC4B77BAFD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stright line equation", "Stright line equation\Stright line equation.csproj", "{08196ACB-F06F-4891-8BA6-0CD96EEDC0FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find X", "Find X\Find X.csproj", "{06A6D768-3D0E-4DC7-8E5A-775990BAED7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables Math", "Variables Math\Variables Math.csproj", "{97F18B0A-325C-4239-88CB-E625465E6A58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stright line equation", "Stright line equation\Stright line equation.csproj", "{08196ACB-F06F-4891-8BA6-0CD96EEDC0FC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find k and b", "Find k and b\Find k and b.csproj", "{7B9E7E89-FCB2-48DA-8B92-19F857746236}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables.tests", "Variables.tests\Variables.tests.csproj", "{BB933642-E464-4DF1-9193-2D62BDBA8038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA96EFAB-7570-4365-80B1-821F87A5AE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA96EFAB-7570-4365-80B1-821F87A5AE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA96EFAB-7570-4365-80B1-821F87A5AE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA96EFAB-7570-4365-80B1-821F87A5AE1B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{496AA766-EC81-4D1F-81CD-1D8FDC757591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{496AA766-EC81-4D1F-81CD-1D8FDC757591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{496AA766-EC81-4D1F-81CD-1D8FDC757591}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,26 +29,22 @@ Global
 		{CA0C36BD-0428-4973-94D4-3C9B9FE84982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA0C36BD-0428-4973-94D4-3C9B9FE84982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA0C36BD-0428-4973-94D4-3C9B9FE84982}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4ED111D-C916-4893-97F8-5434D7C24316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4ED111D-C916-4893-97F8-5434D7C24316}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4ED111D-C916-4893-97F8-5434D7C24316}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4ED111D-C916-4893-97F8-5434D7C24316}.Release|Any CPU.Build.0 = Release|Any CPU
 		{722DC1BD-E7CC-4CA9-ADF3-DCC4B77BAFD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{722DC1BD-E7CC-4CA9-ADF3-DCC4B77BAFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{722DC1BD-E7CC-4CA9-ADF3-DCC4B77BAFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{722DC1BD-E7CC-4CA9-ADF3-DCC4B77BAFD4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06A6D768-3D0E-4DC7-8E5A-775990BAED7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06A6D768-3D0E-4DC7-8E5A-775990BAED7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06A6D768-3D0E-4DC7-8E5A-775990BAED7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06A6D768-3D0E-4DC7-8E5A-775990BAED7C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{08196ACB-F06F-4891-8BA6-0CD96EEDC0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08196ACB-F06F-4891-8BA6-0CD96EEDC0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08196ACB-F06F-4891-8BA6-0CD96EEDC0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08196ACB-F06F-4891-8BA6-0CD96EEDC0FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B9E7E89-FCB2-48DA-8B92-19F857746236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B9E7E89-FCB2-48DA-8B92-19F857746236}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B9E7E89-FCB2-48DA-8B92-19F857746236}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B9E7E89-FCB2-48DA-8B92-19F857746236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F18B0A-325C-4239-88CB-E625465E6A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F18B0A-325C-4239-88CB-E625465E6A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F18B0A-325C-4239-88CB-E625465E6A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F18B0A-325C-4239-88CB-E625465E6A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB933642-E464-4DF1-9193-2D62BDBA8038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB933642-E464-4DF1-9193-2D62BDBA8038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB933642-E464-4DF1-9193-2D62BDBA8038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB933642-E464-4DF1-9193-2D62BDBA8038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

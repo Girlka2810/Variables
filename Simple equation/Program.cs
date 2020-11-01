@@ -1,5 +1,5 @@
 ﻿using System;
-using Find_X;
+using Variables_Math;
 
 namespace Simple_equation
 {

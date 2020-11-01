@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Find X\Find X.csproj" />
+    <ProjectReference Include="..\Variables Math\Variables Math.csproj" />
   </ItemGroup>
 
 </Project>

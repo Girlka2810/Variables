@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Solve equation\Solve equation.csproj" />
+    <ProjectReference Include="..\Variables Math\Variables Math.csproj" />
   </ItemGroup>
 
 </Project>

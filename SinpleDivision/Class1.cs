@@ -3,7 +3,6 @@
 namespace SimpleDivision
 {
     public class Division
-
     {
         static public double SimpleDivision(double a, double b)
         {
@@ -18,7 +17,6 @@ namespace SimpleDivision
 
                 return c;
             }
-
         }
     }
 }

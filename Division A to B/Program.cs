@@ -1,5 +1,5 @@
 ﻿using System;
-using SimpleDivision;
+using Variables_Math;
 namespace Division_A_to_B
 {
     class Program
@@ -11,7 +11,8 @@ namespace Division_A_to_B
             Console.WriteLine("Please enter B =");
             double b = Convert.ToInt32(Console.ReadLine());
             double x = Division.SimpleDivision(a, b);
-            Console.WriteLine("Result: " + x);
+            double x1 = Division.FindRemainder(a, b);
+            Console.WriteLine("Result: " + x+ " Remaider: " + x1);
         }
     }
 }
