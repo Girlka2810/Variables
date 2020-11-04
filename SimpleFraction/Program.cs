@@ -10,7 +10,7 @@ namespace SimpleFraction
             double a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter B =");
             double b = Convert.ToInt32(Console.ReadLine());
-            double x = SolveEquation.SimpleFraction(a, b);
+            double x = VariablesMath.SimpleFraction(a, b);
             Console.WriteLine("X equal " + x);
         }
     }

@@ -10,8 +10,8 @@ namespace Division_A_to_B
             double a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter B =");
             double b = Convert.ToInt32(Console.ReadLine());
-            double x = Division.SimpleDivision(a, b);
-            double x1 = Division.FindRemainder(a, b);
+            double x = VariablesMath.SimpleDivision(a, b);
+            double x1 = VariablesMath.FindRemainder(a, b);
             Console.WriteLine("Result: " + x+ " Remaider: " + x1);
         }
     }

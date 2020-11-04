@@ -13,7 +13,7 @@ namespace Simple_equation
             double b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter C =");
             double c = Convert.ToInt32(Console.ReadLine());
-            double x = FindX.SolveSimpleEquation (a, b,c);
+            double x = VariablesMath.FindX (a, b,c);
             Console.WriteLine("X equal " + x);
         }
     }

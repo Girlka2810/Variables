@@ -17,8 +17,8 @@ namespace Stright_line_equation
             y2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("A (" + x1 + "," + y1 + ")");
             Console.WriteLine("B (" + x2 + "," + y2 + ")");
-            double k = FindKAndB.SolveIndexK(x1,y1,x2,y2);
-            double b = FindKAndB.SolveIndexB(x1, y1, x2, y2);
+            double k = VariablesMath.SolveIndexK(x1,y1,x2,y2);
+            double b = VariablesMath.SolveIndexB(x1, y1, x2, y2);
             Console.Write("Stright line equation: y=");
             Console.Write(k + "*x + " + b);
         }

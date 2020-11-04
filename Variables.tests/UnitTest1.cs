@@ -12,7 +12,7 @@ namespace Variables.tests
             public void SimpleFraction()
             {
                 double expected = 9;
-                double acctual = Variables_Math.SolveEquation.SimpleFraction(1, 2);
+                double acctual = Variables_Math.VariablesMath.SimpleFraction(1, 2);
                 Assert.AreEqual(expected, acctual);
             }
             [TestCase(1, 2, 9)]
@@ -20,7 +20,7 @@ namespace Variables.tests
             [TestCase(2, 6, 11.5)]
             public void SimpleFraction(double a, double b, double expected)
             {
-                double acctual = Variables_Math.SolveEquation.SimpleFraction(a, b);
+                double acctual = Variables_Math.VariablesMath.SimpleFraction(a, b);
                 Assert.AreEqual(expected, acctual);
             }
             [TestCase(2, 2)]
@@ -32,7 +32,7 @@ namespace Variables.tests
             {
                 try
                 {
-                    Variables_Math.SolveEquation.SimpleFraction(a, b);
+                    Variables_Math.VariablesMath.SimpleFraction(a, b);
                 }
                 catch
                 {
@@ -43,13 +43,7 @@ namespace Variables.tests
         }
         public class Division
         {
-            [Test]
-            public void SimpleDivision()
-            {
-                double expected = 2;
-                double actual = Variables_Math.Division.SimpleDivision(4, 2);
-                Assert.AreEqual(expected, actual);
-            }
+            
             [TestCase(4, 2, 2)]
             [TestCase(8, 2, 4)]
             [TestCase(6, 3, 2)]
@@ -58,7 +52,7 @@ namespace Variables.tests
             [TestCase(-4, 2, -2)]
             public void SimpleDivision(double a, double b, double expected)
             {
-                double actual = Variables_Math.Division.SimpleDivision(a, b);
+                double actual = VariablesMath.SimpleDivision(a, b);
                 Assert.AreEqual(expected, actual);
             }
             [TestCase(2, 0)]
@@ -66,7 +60,7 @@ namespace Variables.tests
             {
                 try
                 {
-                    Variables_Math.Division.SimpleDivision(a, b);
+                    VariablesMath.SimpleDivision(a, b);
                 }
                 catch
                 {
@@ -81,7 +75,7 @@ namespace Variables.tests
             [TestCase(-4, 2, 0)]
             public void RemainderOfTheDivision(double a, double b, double expected)
             {
-                double actual = Variables_Math.Division.FindRemainder(a, b);
+                double actual = VariablesMath.FindRemainder(a, b);
                 Assert.AreEqual(expected, actual);
             }
         }
@@ -91,14 +85,14 @@ namespace Variables.tests
         [TestCase(8, 4, 2, -0.25)]
         public void FindX(double a, double b, double c, double expected)
         {
-            double actual = Variables_Math.FindX.SolveSimpleEquation(a, b, c);
+            double actual = VariablesMath.FindX(a, b, c);
         }
         [TestCase(0, 2, 3)]
         public void FindXNegative(double a, double b, double c)
         {
             try
             {
-                Variables_Math.FindX.SolveSimpleEquation(a, b, c);
+                VariablesMath.FindX(a, b, c);
             }
             catch
             {
@@ -111,8 +105,8 @@ namespace Variables.tests
         [TestCase(7, 5, 10, 2, -1, 12)]
         public void FindKAndB(double x1, double y1, double x2, double y2, double expectedK, double expectedB)
         {
-            double actualK = Variables_Math.FindKAndB.SolveIndexK(x1, y1, x2, y2);
-            double actualB = Variables_Math.FindKAndB.SolveIndexB(x1, y1, x2, y2);
+            double actualK = VariablesMath.SolveIndexK(x1, y1, x2, y2);
+            double actualB = VariablesMath.SolveIndexB(x1, y1, x2, y2);
             Assert.AreEqual(expectedK, actualK);
             Assert.AreEqual(expectedB, actualB);
         }
@@ -121,8 +115,8 @@ namespace Variables.tests
         {
             try
             {
-                Variables_Math.FindKAndB.SolveIndexK(x1, y1, x2, y2);
-                Variables_Math.FindKAndB.SolveIndexB(x1, y1, x2, y2);
+                VariablesMath.SolveIndexK(x1, y1, x2, y2);
+                VariablesMath.SolveIndexB(x1, y1, x2, y2);
             }
             catch
             {

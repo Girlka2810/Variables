@@ -3,7 +3,7 @@
 namespace Variables_Math
 {
 
-    public class SolveEquation
+    public class VariablesMath
     {
         static public double SimpleFraction(double a, double b)
         {
@@ -17,9 +17,8 @@ namespace Variables_Math
                 return c;
             }
         }
-    }
-    public class Division
-    {
+    
+    
         static public double SimpleDivision(double a, double b)
         {
             if (b == 0)
@@ -46,10 +45,8 @@ namespace Variables_Math
                 return c;
             }
         }
-    }
-    public class FindX
-    {
-        static public double SolveSimpleEquation(double a, double b, double c)
+   
+        static public double FindX(double a, double b, double c)
         {
             if (a == 0)
             {
@@ -61,9 +58,7 @@ namespace Variables_Math
                 return x;
             }
         }
-    }
-    public class FindKAndB
-    {
+   
         static public double SolveIndexK(double x1, double y1, double x2, double y2)
         {
             if (x1 == x2)
